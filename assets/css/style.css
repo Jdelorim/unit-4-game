@@ -1,0 +1,119 @@
+html{
+    background-image: url("../images/x-wing.jpg");
+    background-size: cover;
+}
+
+
+#starWtitle{
+    font-size:50px;
+    float:right;
+    padding-right:100px;
+   
+   
+}
+
+#heroes{
+    padding-left:10px;
+    padding-top:50px;
+ 
+
+}
+
+#Obi-Wan{
+    border-width: 5px;
+    border-color:green;
+    border-style: solid;
+   
+    padding: 0px 20px;
+    position: absolute;
+    background-color:white;
+    text-align: center;
+}
+
+#LukeSkywalker{
+    margin-left:165px;
+  
+    border-width: 5px;
+    border-color:green;
+    border-style: solid;
+    position: absolute;
+    padding: 0px 20px;
+    background-color:white;
+    text-align: center;
+}
+#DarthVader{
+    margin-left:326px;
+   
+    border-width: 5px;
+    border-color:green;
+    border-style: solid;
+    position: absolute;
+    padding: 0px 20px;
+    background-color:white;
+    text-align: center;
+}
+#Emperor{
+    margin-left:482px;
+    border-width: 5px;
+    border-color:green;
+    border-style: solid;
+    position: absolute;
+    padding: 0px 20px;
+    background-color:white;
+    text-align: center;
+}
+
+#character{
+    font-size: 25px;
+    font-weight: 400;
+}
+#enemiesText{
+    
+    font-size: 25px;
+    font-weight: 400;
+   
+}
+#enemies{
+    padding-top:140px;
+}
+#fight{
+    padding-top:140px;
+
+}
+#fightText{
+    font-size: 25px;
+    font-weight: 400;
+}
+#Defender{
+    padding-top:10px;
+
+}
+#defenderText{
+    font-size: 25px;
+    font-weight: 400;
+
+}
+#fightStatus{
+    padding-top:120px;
+}
+
+
+
+
+
+
+/*
+#Obi-wan{
+    position: absolute;
+    border-style:  solid;
+    border-color: black;
+    border-width: 5px;
+    padding:50px;
+    color: white;
+    margin-top:50px;
+    z-index: 1;
+}
+#obi-wanText{
+   
+}
+*/
