@@ -35,7 +35,7 @@ $("#Obi-Wan").on("click",function() {
     currentHP = 120;
     pickChar = false;
     countChar = 1;
-    attack = 8;
+    attack = 13;
     console.log(pickChar);
     console.log("HP: ",currentHP);
     
@@ -71,7 +71,7 @@ $("#LukeSkywalker").on("click",function() {
      currentHP = 100;
      pickChar = false;
      countChar = 2;
-     attack = 6;
+     attack = 15;
      console.log(pickChar);
      console.log("HP: ",currentHP);
     }   else if (!pickChar && countChar !== 2 && inBattle === false && !lost) {
@@ -103,14 +103,14 @@ $("#LukeSkywalker").on("click",function() {
      currentHP = 150;
      pickChar = false;
      countChar = 3;
-     attack = 10;
+     attack = 14;
      console.log(pickChar);
    } else if (!pickChar && countChar !== 3 && inBattle === false && !lost) {
     $("#DarthVader").appendTo("#Defender");
     $("#DarthVader").css("background-color","black");
     $("#DarthVader").css("color","white");
     phase = 2;
-    counterAtt = 20;
+    counterAtt = 16;
     emChar = "Darth Vader";
     emId ="#darthVaderHP";
     emId2 = "#DarthVader"
@@ -133,14 +133,14 @@ $("#LukeSkywalker").on("click",function() {
      currentHP = 180;
      pickChar = false;
      countChar = 4;
-     attack = 14;
+     attack = 15;
      console.log(pickChar);
     } else if (!pickChar && countChar !== 4 && inBattle === false && !lost) {
         $("#Emperor").appendTo("#Defender");
         $("#Emperor").css("background-color","black");
         $("#Emperor").css("color","white");
         phase = 2;
-        counterAtt = 25;
+        counterAtt = 18;
         emchar = "The Emperor"
         emId ="#emperorHP";
         emId2 = "#Emperor";
@@ -151,7 +151,7 @@ $("#LukeSkywalker").on("click",function() {
  });
 
  $("#attack").on("click",function(){
-    if(phase === 2 && !lost){
+    if(phase === 2 && !lost && inBattle){
        var addATT = attack;
         emHP = emHP - attack;
         
